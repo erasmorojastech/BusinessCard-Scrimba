@@ -1,0 +1,14 @@
+#root {
+  width: 317px;
+  height: 575px;
+  font-family: 'Inter', sans-serif;
+
+  /* Colors */
+  --profileTxt: #f3bf99;
+  --websiteTxt: #f5f5f5;
+  --navBg: #21222a;
+  --emailBtnBg: #d1d5db;
+  --emailBtnTxt: #1e1f26;
+  --linkedinBtn: #5093e2;
+  --footerBg: #161619;
+}
