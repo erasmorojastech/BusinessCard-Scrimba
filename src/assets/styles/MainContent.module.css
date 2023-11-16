@@ -1,0 +1,79 @@
+.container {
+  width: 317px;
+  height: 399px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--contentBg);
+  font-family: Inter;
+  padding: 21px 36px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: var(--name);
+  height: 26px;
+  font-weight: 700;
+}
+
+.title {
+  color: var(--title);
+  margin-top: 6px;
+  height: 15px;
+}
+
+.website {
+  color: var(--website);
+  margin-top: 6px;
+  height: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+  gap: 17px;
+}
+
+.btn {
+  width: 115px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn_email {
+  background-color: var(--emailBtnBg);
+  color: var(--emailBtnText);
+}
+
+.btn_linkedin {
+  background-color: var(--linkedinBtnBg);
+  color: var(--linkedinBtnText);
+}
+
+.content {
+  margin-top: 37px;
+}
+
+.content_title {
+  color: var(--contentTitle);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.content_paragraphs {
+  color: var(--contentText);
+  font-size: 10.24px;
+  margin-top: 5px;
+}
+
+.interests {
+  margin-top: 22px;
+}
