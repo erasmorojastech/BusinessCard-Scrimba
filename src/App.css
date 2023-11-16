@@ -3,12 +3,26 @@
   height: 575px;
   font-family: 'Inter', sans-serif;
 
+  /* Theme*/
+  --white: #f5f5f5;
+  --orange: #f3bf99;
+  --blue: #5093e2;
+  --gray1: #dcdcdc;
+  --gray2: #d1d5db;
+  --gray3: #1e1f26;
+  --black1: #1a1b21;
+  --black2: #161619;
+
   /* Colors */
-  --profileTxt: #f3bf99;
-  --websiteTxt: #f5f5f5;
-  --navBg: #21222a;
-  --emailBtnBg: #d1d5db;
-  --emailBtnTxt: #1e1f26;
-  --linkedinBtn: #5093e2;
-  --footerBg: #161619;
+  --name: var(--white);
+  --title: var(--orange);
+  --website: var(--white);
+  --emailBtnBg: var(--gray2);
+  --emailBtnText: var(--gray3);
+  --linkedinBtnBg: var(--blue);
+  --linkedinBtnText: var(--white);
+  --contentTitle: var(--white);
+  --contentText: var(--gray1);
+  --contentBg: var(--black1);
+  --footerBg: var(--black2);
 }
