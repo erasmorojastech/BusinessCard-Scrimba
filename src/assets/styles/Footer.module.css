@@ -1,0 +1,14 @@
+.footer {
+  width: 317px;
+  height: 64px;
+  background-color: var(--footerBg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
